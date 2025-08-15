@@ -1,0 +1,11 @@
+[project]
+name = "generate-srt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ffmpeg-python>=0.2.0",
+    "openai-whisper>=20250625",
+    "torch>=2.8.0",
+]
